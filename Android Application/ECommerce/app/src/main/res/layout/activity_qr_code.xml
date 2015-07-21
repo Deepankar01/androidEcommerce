@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="live.Abhinav.ecommerce.app.QrCodeActivity">
+
+
+    <TextView
+        android:id="@+id/qrText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR code scanner" />
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:background="#252525"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

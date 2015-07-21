@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_selector"
+                android:padding="5dip">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:background="@drawable/image_bg"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/productThumbnail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/size_word"
+            android:layout_marginTop="@dimen/size_word"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Product Name"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sellerName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productName"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Tom Hanks"/>
+
+    <TextView
+        android:id="@+id/qrValue"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnViewQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Qr-Code"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_alignBottom="@id/thumbnail"
+
+        />
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/thumbnail"
+        android:gravity="right"
+        android:text="500"
+        android:layout_marginRight="5dip"
+        android:textSize="30sp"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

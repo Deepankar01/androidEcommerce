@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#fff"
+             tools:context="live.Abhinav.fragmenttest.app.FragmentA">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listMovieHits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        fab:fab_colorNormal="@color/pink"
+        fab:fab_colorPressed="@color/pink_pressed"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_icon="@drawable/ic_face_tinted_24dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="right|bottom">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_title="Sell"
+            fab:fab_colorNormal="@color/blue_semi_transparent"
+            fab:fab_colorPressed="@color/blue_semi_transparent_pressed"
+            fab:fab_icon="@drawable/ic_sell"
+            fab:fab_size="mini"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/pink"
+            fab:fab_colorPressed="@color/pink_pressed"
+            fab:fab_title="Buy"
+            fab:fab_icon="@drawable/ic_buy"
+            fab:fab_size="mini"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</FrameLayout>

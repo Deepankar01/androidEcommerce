@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Nokia X2 Dual Sim",
+    "price": "4499",
+    "thumbnail": "images\/thumb\/1.png",
+    "sno": "1"
+  },
+  {
+    "name": "Motorola Droid",
+    "price": "41999",
+    "thumbnail": "images\/thumb\/2.png",
+    "sno": "2"
+  },
+  {
+    "name": "Apple iPhone 6",
+    "price": "63000",
+    "thumbnail": "images\/thumb\/3.png",
+    "sno": "3"
+  },
+  {
+    "name": "Microsoft Lumia 535 DS",
+    "price": "7245",
+    "thumbnail": "images\/thumb\/4.png",
+    "sno": "4"
+  },
+  {
+    "name": "Microsoft LifeChat LX-6000 for Business",
+    "price": "2600",
+    "thumbnail": "images\/thumb\/5.png",
+    "sno": "5"
+  },
+  {
+    "name": "Microsoft DC-21 Power Bank 6000 mAh",
+    "price": "2599",
+    "thumbnail": "images\/thumb\/6.png",
+    "sno": "6"
+  },
+  {
+    "name": "Asus Zenfone 2",
+    "price": "12999",
+    "thumbnail": "images\/thumb\/7.png",
+    "sno": "7"
+  },
+  {
+    "name": "Mi 4",
+    "price": "19999",
+    "thumbnail": "images\/thumb\/8.png",
+    "sno": "8"
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ff2c3e54</color>
+    <color name="primaryColorDark">#ff223041</color>
+    <color name="accentColor">#f44336</color>
+
+
+    <color name="bg_login">#ff2c3e54</color>
+    <color name="bg_login_icon">#ff223041</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#ffb1b8c3</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#ff029b9b</color>
+    <color name="lbl_name">#ffb1b1b1</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="black_alpha">#252525</color>
+    <color name="drk_button">#ff223041</color>
+    <color name="lgt_button">#ff223041</color>
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#ff029b9b</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+</resources>

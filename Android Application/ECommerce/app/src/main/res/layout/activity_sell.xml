@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="live.Abhinav.ecommerce.app.SellActivity">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Product Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:hint="Product Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/thumbnailPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"
+            android:contentDescription="@string/hello_world"
+            />
+
+        <Button
+            android:id="@+id/cBtn"
+            android:text="Take picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1590b2"
+            android:onClick="callImageFragment"
+            android:src="@drawable/ic_action_camera"
+            />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/subcategorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:hint="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sell"
+        android:background="#1590b2"
+        android:onClick="myClickHandler"
+        android:src="@drawable/ic_action_upload"
+        />
+</LinearLayout>

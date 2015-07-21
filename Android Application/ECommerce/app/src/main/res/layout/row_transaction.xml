@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/list_selector2"
+
+    >
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:id="@+id/tv_dateOfTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="19sp"
+        android:text="31-04-1994"
+        />
+
+    <TextView
+        android:id="@+id/tv_buySellIndicator"
+        android:layout_alignParentRight="true"
+        android:layout_width="10dp"
+        android:background="#ff239642"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_cost"
+        android:layout_toLeftOf="@id/tv_buySellIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_nameOtherParty"
+        android:paddingLeft="8dp"
+        android:layout_toRightOf="@id/tv_dateOfTransaction"
+        android:layout_toLeftOf="@id/tv_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="James Bond"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
+
+
+

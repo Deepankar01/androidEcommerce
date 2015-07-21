@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+                android:background="@drawable/list_selector2"
+
+    >
+
+    <ImageView
+        android:id="@+id/listIcon"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_transactions_drawer"
+        />
+
+    <TextView
+        android:id="@+id/listText"
+        android:padding="8dp"
+        android:layout_marginLeft="72dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Dummy Text"
+        android:textSize="20dp"/>
+</RelativeLayout>
