@@ -5,10 +5,12 @@ A project where anyone can sell and buy there products
 All the url's for the hosting service are added in here you can edit them as you like
 for simplicity just change the domain name of the url's that will be easy. 
 <code>live/Abhinav/ecommerce/extras/AppConfig.java</code>
-<b>How to add database</b><br/>
-create a database named u810384278_ecom. Then import u810384278_ecom.sql located in database folder.<br/>
+
+<b>How to add database</b><br>
+create a database named <code>u810384278_ecom</code>. Then import <code>u810384278_ecom.sql</code> located in <code>database</code> folder.<br>
+
 <b>How to configure the PHP database's mapping ?</b><br>
-All the database credentials are added in <code>databaseConfig.php</code>
+All the database credentials are added in <code>DBConfiguration.php</code>
 Add the details as required in the fields
 
 <b>Where to put the PHP scripts ?</b><br>
