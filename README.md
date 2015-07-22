@@ -16,3 +16,6 @@ Add the details as required in the fields
 
 <b>Where to put the PHP scripts ?</b><br>
 in <code>public_html/ecommerce/</code> of your <b>Apache Web Server</b> 
+
+<br>
+<b>Apk file is located at<code>Android Application/app-release.apk</code></b>
