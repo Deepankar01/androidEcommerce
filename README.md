@@ -1,7 +1,9 @@
 # Android Ecommerce Platform
 A project where anyone can sell and buy there products
 
-<b> How to Configure... and require it </b>
+<b> How to Configure Android Ecommerce Project</b><br>
+<br><br>
+
 <b>How to configure Android Application ?</b><br>
 All the url's for the hosting service are added in here you can edit them as you like
 for simplicity just change the domain name of the url's that will be easy. 
@@ -18,4 +20,4 @@ Add the details as required in the fields
 in <code>public_html/ecommerce/</code> of your <b>Apache Web Server</b> 
 
 <br>
-<b>Apk file is located at<code>Android Application/app-release.apk</code></b>
+<b>Apk file is located at <code>Android Application/app-release.apk</code></b>
