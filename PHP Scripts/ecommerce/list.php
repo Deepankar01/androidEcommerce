@@ -9,11 +9,7 @@ class ProductList{
     public $sno="";
 }
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "u810384278_ecom";
-
+include 'DBConfiguration.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

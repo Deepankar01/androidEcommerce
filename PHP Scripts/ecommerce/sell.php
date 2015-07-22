@@ -21,11 +21,7 @@ $productList->subcategory_code=$_REQUEST['subcategory_code'];
 $productList->seller=$_REQUEST['seller'];
 $productList->description=$_REQUEST['description'];
 
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "u810384278_ecom";
+include 'DBConfiguration.php';
 
 
 // Create connection

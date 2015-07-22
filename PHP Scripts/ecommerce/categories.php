@@ -6,12 +6,7 @@ class CategoryList{
 	public $categoryId="";
 }
 
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "u810384278_ecom";
-
+include 'DBConfiguration.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,7 +24,7 @@ $number_rows = $result->num_rows;
 
 for($i=0; $i < $number_rows; $i++)
 {
-    $categroyList[$i] = new CategoryList();
+    $categoryList[$i] = new CategoryList();
     $row = $result->fetch_assoc();
     $categoryList[$i]->categoryName = $row["categoryName"];
     $categoryList[$i]->categoryId = $row["categoryId"];

@@ -9,12 +9,7 @@ $category=explode("'",$codes[0])[1];
 $subcategory=$codes[1];
 $sno = explode("'",$codes[2])[0];
 
-//check in the database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "u810384278_ecom";
-
+include 'DBConfiguration.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
