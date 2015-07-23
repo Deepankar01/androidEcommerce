@@ -120,10 +120,10 @@ public class DashboardActivity extends ActionBarActivity implements Communicator
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_search) {
-            startActivity(new Intent(this, SubActivity.class));
-            return true;
-        }
+//        if (id == R.id.action_search) {
+//            startActivity(new Intent(this, SubActivity.class));
+//            return true;
+//        }
 
         //Logout button click
         if (id == R.id.action_logout) {

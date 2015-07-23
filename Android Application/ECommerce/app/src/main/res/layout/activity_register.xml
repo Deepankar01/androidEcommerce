@@ -53,7 +53,6 @@
                 android:inputType="textCapWords"
                 android:textColor="@color/input_login"
                 android:textColorHint="@color/input_login_hint"
-                android:text="Abhinav Anand"
                 />
 
             <EditText
@@ -69,7 +68,7 @@
                 android:singleLine="true"
                 android:textColor="@color/input_login"
                 android:textColorHint="@color/input_login_hint"
-                android:text="oct94abhi@gmail.com"/>
+              />
 
             <EditText
                 android:id="@+id/password"
@@ -84,7 +83,7 @@
                 android:singleLine="true"
                 android:textColor="@color/input_login"
                 android:textColorHint="@color/input_login_hint"
-                android:text="123"/>
+                />
 
             <!-- Login Button -->
 

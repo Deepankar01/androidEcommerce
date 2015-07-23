@@ -10,7 +10,7 @@
               tools:context="live.Abhinav.ecommerce.app.BookedItemsActivity">
 
     <TextView
-        android:text="Booke items"
+        android:text="Booked items"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <ImageView

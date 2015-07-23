@@ -54,7 +54,7 @@
                 android:textColor="@color/input_login"
                 android:textColorHint="@color/input_login_hint"
 
-                android:text="oct94abhi@gmail.com"/>
+                />
 
             <EditText
                 android:drawableLeft="@drawable/ic_password"
@@ -70,9 +70,7 @@
                 android:singleLine="true"
                 android:textColor="@color/input_login"
                 android:textColorHint="@color/input_login_hint"
-
-
-                android:text="123"/>
+                />
 
             <!-- Login Button -->
 
@@ -82,7 +80,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dip"
                 android:background="@drawable/layer"
-
                 android:elevation="2dp"
                 android:text="@string/btn_login"
                 android:textColor="@color/white"
@@ -92,7 +89,6 @@
                 android:shadowColor="#000"/>
 
             <!-- Link to Login Screen -->
-
             <Button
                 android:id="@+id/btnLinkToRegisterScreen"
                 android:layout_width="fill_parent"
@@ -104,6 +100,5 @@
                 android:textColor="@color/input_login"
                 android:textSize="15dp"/>
         </LinearLayout>
-
     </LinearLayout>
 </LinearLayout>
