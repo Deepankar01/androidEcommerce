@@ -1,4 +1,4 @@
-# Android Ecommerce Platform
+# Ecommerce Platform For android Users
 A project where anyone can sell and buy there products
 
 <b> How to Configure Android Ecommerce Project</b><br>
@@ -20,4 +20,4 @@ Add the details as required in the fields
 in <code>public_html/ecommerce/</code> of your <b>Apache Web Server</b> 
 
 <br>
-<b>Apk file is located at <code>Android Application/app-release.apk</code></b>
+<b>Here is your apk file<code>Android Application/app-release.apk</code></b>
